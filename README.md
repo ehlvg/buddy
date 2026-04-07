@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="logo.svg" width="110" alt="buddy">
-</p>
+<img src="logo.svg" width="110" alt="buddy">
 
 # buddy
 
