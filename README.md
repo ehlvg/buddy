@@ -1,3 +1,5 @@
+<img alt="image" src="shot.png" />
+
 <img src="logo.svg" width="110" alt="buddy">
 
 # buddy
