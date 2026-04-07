@@ -6,7 +6,7 @@
 
 hold **space** to record · release to save · ctrl+c to quit
 
-saves as `<hex>.wav` in your current directory.
+saves timestamped files (`2026-04-07_14-30-22.wav`) to your current directory, or wherever you point it.
 
 ---
 
@@ -19,8 +19,15 @@ pipx install .
 ## usage
 
 ```bash
-buddy
+buddy                        # wav to current dir, picks mic on first run
+buddy -o ~/recordings        # save to a specific folder
+buddy -f mp3                 # save as mp3 (also: flac, ogg)
+buddy -f ogg -o ~/voice      # combine flags
+buddy --pick                 # re-select microphone
+buddy --list                 # list available input devices
 ```
+
+mic choice is remembered between runs (`~/.config/buddy/config.json`).
 
 ---
 
